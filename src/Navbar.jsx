@@ -3,27 +3,23 @@ function Header() {
   return (
 
     <main className="focus-page">
-      <nav className="navbar navbar-expand-md px-4 py-3">
+      <nav id="focusNavbar" className="navbar navbar-expand-md px-4 py-3">
         <div className="container-fluid">
-          <div className="d-flex align-items-center gap-3">
+          {/* Logo and Title */}
+          <div id="logoTitle" className="d-flex align-items-center gap-3">
             <a className="navbar-brand text-white fw-bold fs-2 m-0" href="#">
                 <i className="title bi-stack me-2">
                   FocusStack
                 </i>
             </a>
-
-            <button className="glass-button">
-              <i className="bi bi-link-45deg">
-                Deep Focus
-              </i>
-            </button>
           </div>
 
-          {/* Add the navbar toggler button for mobile view */}
-          <button className="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#focusNavbar">
+          {/* Mobile Toggle View */}
+          <button id="navbarToggle" className="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#focusNavbar">
             <span className="navbar-toggler-icon"></span>
           </button>
 
+          {/* Navbar Content */}
           <div id="focusNavbar" className="collapse navbar-collapse justify-content-end">
             <div className="d-flex align-items-center gap-2 mt-3 mt-md-0">
               <button className="glass-button">

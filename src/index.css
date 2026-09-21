@@ -141,7 +141,7 @@ button {
   border-radius: 16px;
 
   color:white;
-  background-color: rgba(20,48,51,0,0.45);
+  background-color: rgba(20,48,51,0.45);
   backdrop-filter: blur(10px);
   -webkit-background-filter: blur(10px);
 
